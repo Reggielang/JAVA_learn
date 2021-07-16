@@ -19,3 +19,4 @@ class VariableTest{
         int myNumber = 1001;
     }
 }
+
