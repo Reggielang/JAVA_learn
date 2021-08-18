@@ -18,7 +18,5 @@ public class Arraystest {
 
         int[] arr3 = new int[]{-89,-32,0,2,14,15};
         Arrays.binarySearch(arr3,0);
-
     }
-    
 }

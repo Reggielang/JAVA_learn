@@ -25,7 +25,7 @@ package OOPtest;/*
 *
 * 引用数据类型：类，数组，接口 null
 *
-* 局部变量：没有默认初始化值
+* 局部变量：没有默认初始化值 -- 方法中的变量
 * 意味着，调用局部变量之前，必须要显式赋值
 *特别的：形参在调用时，进行赋值就可以
 *
@@ -33,6 +33,7 @@ package OOPtest;/*
 * 属性 加载到堆空间中
 * 局部变量 加载到栈空间
 *
+*成员变量-- 类中方法外的变量
 *
 *
 * */
@@ -47,20 +48,3 @@ public class UserTest {
     }
 }
 
-class User{
-    //属性
-    String name;
-    int age;
-    boolean isMale;
-
-
-    public void talk(String language){//形参也是局部变量
-        System.out.println("我们用"+language+"进行交流");
-
-    }
-
-    public void eat(){
-        String food = "饼子"; //局部变量
-        System.out.println("北方人喜欢"+food);
-    }
-}

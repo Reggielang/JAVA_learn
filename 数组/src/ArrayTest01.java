@@ -32,7 +32,6 @@ public class ArrayTest01 {
             arr[j] = temp;
         }
 
-
         //查找（搜索）
         //线性查找：
         boolean isFlag = true;
