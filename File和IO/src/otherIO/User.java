@@ -1,8 +1,13 @@
 package otherIO;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+
+    private static final long serialVerisonUID=1L;
     private String username;
-    private String passwd;
+    //如果不想被序列化 可以加上transient
+    private transient String passwd;
 
     public User() {
     }
