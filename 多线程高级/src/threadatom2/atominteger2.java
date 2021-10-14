@@ -14,7 +14,7 @@ public class atominteger2 {
         System.out.println(andIncrement);
 
         //返回自增后的值
-        int andIncrement1 = ac.getAndIncrement();
+        int andIncrement1 = ac.incrementAndGet();
         System.out.println(andIncrement1);
 
 
